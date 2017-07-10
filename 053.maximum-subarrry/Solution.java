@@ -2,6 +2,28 @@ import java.util.Arrays;
 
 public class Solution {
     public int maxSubArray(int[] nums) {
+        int maxSum = Integer.MIN_VALUE;
+
+        for (int startIndex = 0; startIndex < nums.length; startIndex++) {
+            int subMaxSum = nums[startIndex];
+
+            if (subMaxSum > maxSum) {
+                maxSum = subMaxSum;
+            }
+
+            for (int length = 1; length < nums.length - startIndex; length ++) {
+                subMaxSum += nums[startIndex + length];
+
+                if (subMaxSum > maxSum) {
+                    maxSum = subMaxSum;
+                }
+            }
+        }
+
+        return maxSum;
+    }
+
+    public int maxSubArray2(int[] nums) {
         int maxSoFar = nums[0], maxEndingHere = nums[0];
 
         for (int i = 1; i < nums.length; i++){
