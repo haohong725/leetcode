@@ -1,3 +1,8 @@
+//
+//相同的树
+
+package io.github.ihaohong.solutions.s100;
+
 public class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {

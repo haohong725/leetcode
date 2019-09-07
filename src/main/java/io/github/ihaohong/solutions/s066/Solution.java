@@ -1,3 +1,7 @@
+// 加一
+
+package io.github.ihaohong.solutions.s066;
+
 import java.util.Arrays;
 
 public class Solution {

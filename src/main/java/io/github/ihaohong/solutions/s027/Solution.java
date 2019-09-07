@@ -1,3 +1,6 @@
+//移除元素
+package io.github.ihaohong.solutions.s027;
+
 public class Solution {
     public int removeElement(int[] nums, int val) {
         int length = 0;

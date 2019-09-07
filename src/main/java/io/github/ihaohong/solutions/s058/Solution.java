@@ -1,3 +1,8 @@
+//
+//最后一个单词的长度
+
+package io.github.ihaohong.solutions.s058;
+
 public class Solution {
     public int lengthOfLastWord(String s) {
         s = s.trim();

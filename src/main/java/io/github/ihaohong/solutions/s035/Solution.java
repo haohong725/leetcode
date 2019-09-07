@@ -1,3 +1,7 @@
+//搜索插入位置
+
+package io.github.ihaohong.solutions.s035;
+
 public class Solution {
     public int searchInsert(int[] nums, int target) {
         int i;

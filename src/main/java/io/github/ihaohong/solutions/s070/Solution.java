@@ -1,3 +1,7 @@
+// 爬楼梯
+
+package io.github.ihaohong.solutions.s070;
+
 public class Solution {
     public int climbStairs(int n) {
         int[] cache = new int[n+1];
