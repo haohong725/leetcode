@@ -1,3 +1,7 @@
+// 最长公共前缀
+
+package io.github.ihaohong.solutions.s014;
+
 import java.util.Arrays;
 
 public class Solution {

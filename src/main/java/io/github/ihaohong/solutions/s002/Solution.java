@@ -1,3 +1,7 @@
+// 两数相加
+
+package io.github.ihaohong.solutions.s002;
+
 /**
  * @author haohong
  */

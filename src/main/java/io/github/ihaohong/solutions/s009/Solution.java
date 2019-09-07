@@ -1,3 +1,7 @@
+// 回文数
+
+package io.github.ihaohong.solutions.s009;
+
 public class Solution {
     public boolean isPalindrome(int x) {
         String xStr = String.valueOf(x);

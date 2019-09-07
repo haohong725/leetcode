@@ -1,3 +1,7 @@
+// 两数之和
+
+package io.github.ihaohong.solutions.s001;
+
 import java.util.Arrays;
 
 public class Solution {

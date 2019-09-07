@@ -1,6 +1,6 @@
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Arrays;
+// 删除有序数组中的重复项
+
+package io.github.ihaohong.solutions.s026;
 
 public class Solution {
     public int removeDuplicates(int[] nums) {

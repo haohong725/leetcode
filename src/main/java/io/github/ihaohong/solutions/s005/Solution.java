@@ -1,3 +1,7 @@
+// 最长回文子串
+
+package io.github.ihaohong.solutions.s005;
+
 /**
  * @author haohong
  */
