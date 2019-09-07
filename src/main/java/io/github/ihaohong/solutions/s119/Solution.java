@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
-        if (rowIndex == 0) { return new ArrayList<>() };
+        if (rowIndex == 0) { return new ArrayList<>(); }
         List<List<Integer>> matrix = new ArrayList<>();
         for (int i=1; i<=rowIndex; i++) {
             List<Integer> row = new ArrayList<Integer>();
